@@ -17,11 +17,14 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
+      "prefix": "leaflet",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/leaflet/dist/leaflet.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/leaflet/dist/leaflet.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
