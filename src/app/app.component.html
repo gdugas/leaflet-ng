@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<leaflet-map [center]="{lat: 0, lng: 0}" [zoom]="13">
-    <leaflet-marker [latlng]="{lat: 0, lng: 0}"></leaflet-marker>
+<leaflet-map [center]="{lat: 0, lng: 0}" [zoom]="13" [style.height.px]="600" [style.width.%]="100">
     <leaflet-tile-layer [url]="'http://{s}.tile.osm.org/{z}/{x}/{y}.png'"></leaflet-tile-layer>
+    <leaflet-marker [latlng]="{lat: 0, lng: 0}"></leaflet-marker>
 </leaflet-map>
